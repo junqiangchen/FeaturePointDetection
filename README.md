@@ -1,6 +1,15 @@
 # Feature Point Detection With CNN
 > This is an example of Face Feature Point Detection
 
+## Prerequisities
+The following dependencies are needed:
+- numpy >= 1.11.1
+- SimpleITK >=1.0.1
+- opencv-python >=3.3.0
+- tensorflow-gpu ==1.8.0
+- pandas >=0.20.1
+- scikit-learn >= 0.17.1
+
 ## How to Use
 
 The data come from Kaggle face feature point, when you download the train and test csv file, run the `featurePointtrain.py` for training, run the `featurePointpredict.py` for predict.
